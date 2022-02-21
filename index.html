@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Lstyle.css"></link>
+
+    <title>LogIN</title>
+</head>
+<b>
+
+    <div id="weather"> 
+        <span></span>
+        <span></span>
+    </div>
+
+    <h2 id="clock">00:00</h2>
+
+
+<form id="login-form" class="hidden">
+    <input 
+    required
+    maxlength="15"
+    type="text"
+    placeholder="what is your Name?">
+    <button>Log In</button>
+
+<!-- // ( form안에서 enter or form안에 버튼 click)
+//input할게 더이상 존재x이면 자동적으로 submit 이벤트 발생
+//웹 사이트 새로고침 된다. -->
+
+</form>
+
+
+
+<h1 id="greeting" class="hidden"></h1>
+
+
+<form id="todo-form">
+    <input type="text" placeholder="Write To do and Press Enter!" required/>
+</form>
+
+
+<ul id="todo-list">
+    <!-- 여기에 리스트 들어감 -->
+</ul>
+
+
+<div id="quote">
+
+    <span></span>
+    <span></span>
+
+</div>
+
+
+   
+
+
+    <script src="Quotes.js"></script>
+    <!-- <script src="background.js"></script> -->
+    <script src="Lapp.js"></script>
+    <script src="clock.js"></script>
+    <script src="TodoList.js"></script>
+    <script src="Weather.js"></script>
+</body>
+</html>
